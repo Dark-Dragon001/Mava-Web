@@ -1,0 +1,53 @@
+.serviceSection,
+.servicePhrase
+{
+    flex: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.serviceSection
+{
+    font-size: 4vw;
+}
+
+
+.servicePhrase
+{
+    font-size: 2vw;
+}
+
+.servicesComponents
+{
+    /*
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    box-shadow: 0 0 15px #03469d;
+    margin: 1vw;
+    padding: 0;
+
+     */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
