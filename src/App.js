@@ -17,6 +17,7 @@ function App() {
           <Header />
       </header>
       <body className="App-body">
+      <Main />
 
       </body>
       <footer>
