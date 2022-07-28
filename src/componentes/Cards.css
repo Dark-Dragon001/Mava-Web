@@ -2,8 +2,6 @@
 
 
 
-
-
 .cardsContainer,
 .cardsContainer::after,
 .cardsContainer::before {
@@ -12,11 +10,9 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-}
 
-.cardsContainer {
+.cardsContainer
+{
     width: 100%;
     min-height: 100vh;
     background-color: #f0f0f0;
@@ -26,7 +22,9 @@ html {
     align-items: center;
 }
 
-.container {
+
+.container
+{
     position: relative;
     display: flex;
     justify-content: center;
@@ -34,22 +32,30 @@ html {
     flex-wrap: wrap;
 }
 
-.container .box {
+
+.container .box
+{
     position: relative;
     width: 30rem;
     height: 30rem;
     margin: 4rem;
 }
 
-.container .box:hover .imgBox {
+
+.container .box:hover .imgBox
+{
     transform: translate(-3.5rem, -3.5rem);
 }
 
-.container .box:hover .content {
+
+.container .box:hover .content
+{
     transform: translate(3.5rem, 3.5rem);
 }
 
-.imgBox {
+
+.imgBox
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -59,14 +65,18 @@ html {
     transition: all 0.5s ease-in-out;
 }
 
-.imgBox img {
+
+.imgBox img
+{
     width: 30rem;
     height: 30rem;
     object-fit: cover;
     resize: both;
 }
 
-.content {
+
+.content
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -82,7 +92,9 @@ html {
     transition: 0.5s ease-in-out;
 }
 
-.content h2 {
+
+.content h2
+{
     display: block;
     font-size: 2rem;
     color: #111;
@@ -91,21 +103,30 @@ html {
     letter-spacing: 1px;
 }
 
-.content span {
+
+.content span
+{
     color: #555;
     font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
-@media (max-width: 600px) {
-    .container .box:hover .content {
+
+@media (max-width: 600px)
+{
+    .container .box:hover .content
+    {
         transform: translate(0, 3.5rem);
     }
-    .container .box:hover .imgBox {
+
+
+    .container .box:hover .imgBox
+    {
         transform: translate(0, -3.5rem);
     }
 }
+
 
 .linksCont:hover
 {

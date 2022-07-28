@@ -1,6 +1,6 @@
 
-
-.each-fade {
+.each-fade
+{
     display: flex;
     width: auto;
     height: 46vw;
@@ -9,17 +9,23 @@
 
 }
 
-.each-fade>div {
+
+.each-fade>div
+{
     width: 75%;
 }
 
-.each-fade>div img {
+
+.each-fade>div img
+{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.each-fade p {
+
+.each-fade p
+{
     width: 25%;
     font-size: 1em;
     display: flex;
