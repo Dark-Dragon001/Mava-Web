@@ -308,7 +308,7 @@ nav a {
     }
 }
 
-/* Headeeeer */
+/* Header */
 .header {
     height: 80px;
     position: relative;
@@ -364,7 +364,6 @@ nav a {
 
 .menu-item {
     float: left;
-    text-align: center;
     text-align: center;
 }
 
@@ -423,7 +422,7 @@ nav a {
     }
 }
 
-/* Hamurger Menu */
+/* Hamburger Menu */
 .hamburger-menu {
     position: absolute;
     width: 60px;

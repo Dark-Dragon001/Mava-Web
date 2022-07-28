@@ -1,8 +1,9 @@
 
+
 .each-fade {
     display: flex;
     width: auto;
-    height: 47vw;
+    height: 46vw;
     justify-content: center;
     object-fit: cover;
 

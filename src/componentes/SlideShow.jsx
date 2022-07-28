@@ -13,7 +13,7 @@ const fadeImages = [
 const SlideShow = () => {
     return(
         <>
-            <div className="slideShowContaner">
+            <div className="slideShowContainer">
                 <Fade>
                     <div className="each-fade">
                         <img src={fadeImages[0]} />

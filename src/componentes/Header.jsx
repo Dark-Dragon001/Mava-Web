@@ -49,12 +49,12 @@ function Header(props) {
                                     </li>
                                     <li className="menu-item is-active menu-item--play">
                                         <a href="#" className="menu-link">
-                                            Kurumsal Kurumsal
+                                            Kurumsal
                                         </a>
                                     </li>
                                     <li className="menu-item is-active menu-item--play">
                                         <a href="#" className="menu-link">
-                                            Kurumsal
+                                            İletişim
                                         </a>
                                     </li>
                                 </ul>
